@@ -4,7 +4,14 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
-    }
+        maven { url 'https://jitpack.io' }    }
 }
-rootProject.name = "ThirdLibraryLean1"
+rootProject.name = "ThirdLibraryLean"
 include ':app'
+include ':feature'
+include ':framwork'
+include ':feature:navigation:export'
+include ':feature:navigation:pkg'
+include ':feature:navigation:app'
+include ':feature:IosDialog'
+include ':feature:IosDialog:app'
