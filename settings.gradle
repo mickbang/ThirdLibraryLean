@@ -8,10 +8,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "ThirdLibraryLean"
 include ':app'
-include ':feature'
-include ':framwork'
-include ':feature:navigation:export'
-include ':feature:navigation:pkg'
-include ':feature:navigation:app'
-include ':feature:IosDialog'
-include ':feature:IosDialog:app'
+include ':core-base'
+include ':core-common'
+include ':feature-rxjava'
